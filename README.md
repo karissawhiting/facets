@@ -51,3 +51,7 @@ The output of procSample now has 4 elements:
 If `flags` is NULL then no obvious problem with the dipLogR estimate. It can have two other comments: "mafR not sufficiently small" and "could be polyclonal 1 copy loss". The first one means that there aren't segments with sufficiently balanced alleles and so the estimate may not be great. The second one means that it looks like genome doubling; the only lower level segments are 2+1 and 2+0 (from 2+2); a model without genome doubling but single copy loss (1+0 from 1+1) with two different cellular fraction could fit better.
 
 Note: I am not claiming that I have covered all possible scenarios that lead to bad dipLogR estimate. If you come across anything that doesn't seem right but flags is NULL let me know.
+
+## Citation
+
+Shen R, Seshan VE. FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing. Nucleic Acids Res. 2016 Sep 19;44(16):e131. doi: 10.1093/nar/gkw520. Epub 2016 Jun 7. PMID: 27270079; PMCID: PMC5027494.
