@@ -35,6 +35,7 @@ xx <- preProcSample(rcmat, ...)
 oo <- procSample(xx, cval = 300)
 ```
 
+
 And go straight to
 ```r
 emcncf(oo)
